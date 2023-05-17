@@ -11,7 +11,7 @@ var mousedown = false;
 window.addEventListener("load", function(event) {
 
 	// creating and initializing a new plotter object
-	plotter = new Plotter(10, 10);
+	plotter = new Plotter(250, 135);
 	plotter.initialize();
 	//instantiate game (columns, rows, cellsize, toroidal overlap)
 	conway = new Game(50, 40, 7, false, plotter);
