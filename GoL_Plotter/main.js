@@ -1,3 +1,4 @@
+
 "use strict;" 
 
 var conway;//must be declared in the global scope to be accessed via HTML onclick attibute
